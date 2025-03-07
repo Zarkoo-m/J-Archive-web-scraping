@@ -1,0 +1,36 @@
+---
+
+## 📂 **PROJECT STRUCTURE**
+
+```plaintext
+📁 j-archive
+│── 📁 A_DRIVERS                                                                          
+│   ├──A_1_DRIVER_SETUP.py 
+│
+│── 📁 B_FUNCTIONS                                                                        
+│   ├── B_1_OPEN_WEB_SITE.py
+│   ├── B_2_OPEN_MAIN_PAGE.py
+│   ├── B_3_SEARCH_ENTRY.py
+│   ├── B_4_RESULT_SCANNER.py
+│   ├── B_5_SEPARATE_GAME.py
+│   ├── B_6_ANALYSIS.py
+│   ├── B_7_REPEAT_PROCESS.py
+│
+│── 📁 C_SUPPORTING_FILES                                                                
+│   ├── C_1_LOGS.py
+│   ├── C_2_EXCEPTION_HANDLERS.py
+│   ├── C_3_CLEAR_CACHE_MEMORY.py
+│   ├── C_4_REPEAT_MECHANISM.py
+│
+│── 📁 D_HELPERS                                                                
+│   ├── D_1_USER_INPUT_1.py
+│   ├── D_2_HTML_CLEARNER.py
+│   ├── D_3_CONVERT_TO_BINARY.py
+│   ├── D_4_USER_INPUT2_CHOICE.py
+│   ├── D_5_CSV_SAVER.py
+│   ├── D_6__CONVERT_TO_BINARY2.py
+│   ├── D_7_EXCEL_REPORT.py
+│   ├── D_8_EXCEL_CHART.py
+│   ├── D_9_HTML_REPORT.py
+│
+│── 🖥️ Main.py                                                                                   
