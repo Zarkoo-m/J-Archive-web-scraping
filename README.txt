@@ -1,6 +1,6 @@
 # 📦 Automated Web Scraping for Jeopardy Archive
 
-End-to-End Data Extraction – Featuring Keyword-Based Search, Data Analysis & Report Generation.**.
+End-to-End Data Extraction – Featuring Keyword-Based Search, Data Analysis & Report Generation.
 
 ---
 
@@ -23,23 +23,22 @@ End-to-End Data Extraction – Featuring Keyword-Based Search, Data Analysis & R
 - ✔️ `os` – File and directory operations
 - ✔️ `re` – Regular expression processing
 - ✔️ `time` – Execution time measurement & delays
-- ✔️ `csv ` – Structured data storage and handling
-- ✔️ `collections ` – Data structuring and frequency analysis
+- ✔️ `csv` – Structured data storage and handling
+- ✔️ `collections` – Data structuring and frequency analysis
 - ✔️ `datetime` – Date and time manipulation
-- ✔️ `threading ` – Parallel execution for optimized performance
+- ✔️ `threading` – Parallel execution for optimized performance
 
 ### 🔹 Web Scraping & Automation
-- ✔️ `BeautifulSoup ` – Parsing and extracting HTML content
+- ✔️ `BeautifulSoup` – Parsing and extracting HTML content
 - ✔️ `WebDriverWait` – Explicit waits for better element handling
 - ✔️ `EC (Expected Conditions)` – Ensuring stable element interactions
-- ✔️ `By ` – Locating elements for automation
-- ✔️ `ActionChains ` – Handling advanced browser interactions
+- ✔️ `By` – Locating elements for automation
+- ✔️ `ActionChains` – Handling advanced browser interactions
 
 ### 🔹 Data Storage & Reporting
-- ✔️ `Workbook  ` – Excel file generation
-- ✔️ `ExcelChartGenerator ` – Automated chart creation
+- ✔️ `Workbook` – Excel file generation
+- ✔️ `ExcelChartGenerator` – Automated chart creation
 - ✔️ `BarChart, Reference` – Graph plotting for statistical analysis
-
 
 ---
 
@@ -48,15 +47,13 @@ End-to-End Data Extraction – Featuring Keyword-Based Search, Data Analysis & R
 ### ✅ Web Scraping & Data Extraction
 - 🔹 **Automated Scraping** – Uses BeautifulSoup to parse and extract structured data from J-Archive.
 - 🔹 **Dynamic Search Processing** – Extracts results based on user-provided keywords, enabling targeted data collection.
-- 🔹 **Pagination Handling** –  Iterates through multiple search result pages to ensure comprehensive data extraction.
-
+- 🔹 **Pagination Handling** – Iterates through multiple search result pages to ensure comprehensive data extraction.
 
 ### ✅ Repeat Mechanism
 - 🔹 **Automated Retry Logic** – Implements a custom function that attempts each step up to 3 times if the initial execution fails.
-- 🔹 **Error Resilience** – Ensures the script does not terminate unexpectedly due to temporary issues like network delays or missing elements..
+- 🔹 **Error Resilience** – Ensures the script does not terminate unexpectedly due to temporary issues like network delays or missing elements.
 - 🔹 **Adaptive Recovery** – If a step fails, the function waits before retrying, improving script stability.
 - 🔹 **Execution Continuity** – Guarantees smooth operation by handling transient errors dynamically.
-
 
 ### ✅ Centralized & Decentralized Data Storage
 - 🔹 **Binary Data Storage** – Saves extracted information in binary format to enhance data integrity and retrieval speed.
@@ -77,40 +74,38 @@ End-to-End Data Extraction – Featuring Keyword-Based Search, Data Analysis & R
 - 🔹 **Execution Monitoring** – Logs each step of the script to provide visibility into data processing.
 - 🔹 **Detailed Error Tracking** – Stores exception details for troubleshooting and issue resolution.
 
-
 ### ✅ Exception Handling & Stability
 - 🔹 **Try-Except Blocks** – Ensures graceful error handling, preventing script crashes.
 - 🔹 **Custom Error Messages** – Provides clear debugging outputs.
 - 🔹 **Resilient Execution** – Handles missing elements, unexpected response delays, and incorrect page structures.
 
-
 ---
 
 ## 🛠 HOW IT WORKS
 
-### 🔹 web scraping
-1️⃣ Cache Memory Clearing – Frees up system resources and ensures a fresh session start.
-2️⃣ Opening the Website – Automatically loads the main page of the J-Archive site.
-3️⃣ Keyword Entry – The user enters a search term.
-4️⃣ Search Execution – The keyword is entered into the site's search bar, and the search is initiated.
-5️⃣ Collecting Results – Automatically extracts all results where the keyword appears.
-6️⃣ Selecting the Number of Results – The user chooses whether to process all results or a custom number.
-7️⃣ Opening Results – Opens each result and counts how many rounds were played in the game.
-8️⃣ Data Extraction – Extracts clue, answer, and category from each round of every game.
-9️⃣ Data Storage – Collected data is stored in binary format for optimization and faster access.
-🔟 Categorized Data Collection – All answers and clues are grouped into a list according to their categories.
-1️⃣1️⃣ Data Analysis & Sorting – Performs analysis and sorting based on the most frequently appearing clues, answers, and categories.
-1️⃣2️⃣ User Prompt for Continuation – The script offers the option to enter a new keyword or exit the program.
-1️⃣3️⃣ Report Generation – Analyzed results are exported to Excel (with charts) and an HTML report with structured tables.
+### 🔹 Web Scraping Steps
+1️⃣ **Cache Memory Clearing** – Frees up system resources and ensures a fresh session start.  
+2️⃣ **Opening the Website** – Automatically loads the main page of the J-Archive site.  
+3️⃣ **Keyword Entry** – The user enters a search term.  
+4️⃣ **Search Execution** – The keyword is entered into the site's search bar, and the search is initiated.  
+5️⃣ **Collecting Results** – Automatically extracts all results where the keyword appears.  
+6️⃣ **Selecting the Number of Results** – The user chooses whether to process all results or a custom number.  
+7️⃣ **Opening Results** – Opens each result and counts how many rounds were played in the game.  
+8️⃣ **Data Extraction** – Extracts clue, answer, and category from each round of every game.  
+9️⃣ **Data Storage** – Collected data is stored in binary format for optimization and faster access.  
+🔟 **Categorized Data Collection** – All answers and clues are grouped into a list according to their categories.  
+1️⃣1️⃣ **Data Analysis & Sorting** – Performs analysis and sorting based on the most frequently appearing clues, answers, and categories.  
+1️⃣2️⃣ **User Prompt for Continuation** – The script offers the option to enter a new keyword or exit the program.  
+1️⃣3️⃣ **Report Generation** – Analyzed results are exported to Excel (with charts) and an HTML report with structured tables.  
 
 ---
 
 ## 📂 **PROJECT STRUCTURE**
 
-```plaintext
+```md
 📁 j-archive
 │── 📁 A_DRIVERS                                                                          
-│   ├──A_1_DRIVER_SETUP.py 
+│   ├── A_1_DRIVER_SETUP.py 
 │
 │── 📁 B_FUNCTIONS                                                                        
 │   ├── B_1_OPEN_WEB_SITE.py
