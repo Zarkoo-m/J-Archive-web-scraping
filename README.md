@@ -79,6 +79,15 @@ End-to-End Data Extraction – Featuring Keyword-Based Search, Data Analysis & R
 - 🔹 **Custom Error Messages** – Provides clear debugging outputs.
 - 🔹 **Resilient Execution** – Handles missing elements, unexpected response delays, and incorrect page structures.
 
+### ✅ Data Analysis & Sorting
+- 🔹 **Keyword-Based Data Filtering** – Sorts clues, answers, and categories based on frequency of occurrence.
+- 🔹 **Statistical Processing** – Identifies patterns in Jeopardy game data, enabling deeper insights.
+- 🔹 **Optimized Sorting Mechanism** – Sorts data efficiently to highlight the most relevant and frequently appearing terms.
+
+### ✅ HTML Content Cleaning
+- 🔹 **Data Sanitization** – Removes unnecessary HTML tags and artifacts to extract clean text from parsed data.
+- 🔹 **Format Optimization** – Ensures extracted data is properly structured for storage, analysis, and reporting.
+- 🔹 **Error-Free Data Extraction** – Cleans HTML noise to prevent issues with inconsistent or malformed content.
 ---
 
 ## 🛠 HOW IT WORKS
